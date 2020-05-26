@@ -1,0 +1,80 @@
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+.demo-bg {
+  height: 360px;
+}
+.image {
+  height: 375px;
+}
+.header .header-top {
+  padding: 110px 0 410px;
+}
+    .title-page .title h1 {
+  font-size: 34px;
+}
+    .title-page a{margin-bottom: 30px}
+}
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.demo-bg {
+  height: 360px;
+}
+.image {
+  height: 374px;
+}
+    .header .header-top {
+  padding: 100px 0 140px;
+}
+.header .header-top::before {
+  display: none
+}
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {width:300px}
+    .demo-bg {
+      height: 150px;
+      left: 11px;
+      top: 10px;
+      width: 248px;
+    }
+        .title-page .title h1 {
+      font-size: 24px;
+    }
+    .header .header-top {
+      padding: 110px 0;
+    }
+    .header .header-top::before {
+      display: none
+    }
+        .padding {
+      padding-top: 0;
+    }
+        .pages-title h1 {
+      font-size: 25px;
+    }
+    .pages-title {
+  margin-bottom: 28px;
+  margin-top: 0;
+}
+    .demo-bg {
+  height: 350px;
+}
+.image {
+  height: 364px;
+}
+    .advertise-area h2 {
+    line-height: 35px;
+    font-size: 27px
+}
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+  width: 450px;
+}
+
+
+}
